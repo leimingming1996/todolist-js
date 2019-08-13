@@ -1,0 +1,139 @@
+  * {
+  	font-size: 14px;
+  	font-family: "微软雅黑";
+  }
+  
+  h1 {
+  	width: 100%;
+  	font-size: 100px;
+  	font-weight: 100;
+  	text-align: center;
+  	color: rgba(175, 47, 47, 0.15) !important;
+  	-webkit-text-rendering: optimizeLegibility;
+  	-moz-text-rendering: optimizeLegibility;
+  	text-rendering: optimizeLegibility;
+  }
+  
+  .main {
+  	background: #fff;
+  	padding: 24px;
+  	minHeight: 280px;
+  	height: 100%;
+  	width: 50%;
+  	margin: 0 auto;
+  }
+  
+  .todo-header {
+  	position: relative;
+  }
+  #selectAll{
+  	color:#e6e6e6
+  }
+  
+  .todo-header label {
+  	cursor: pointer;
+  	position: absolute;
+  	left: 5px;
+  	top: 17px;
+  	background-color: transparent;
+  	border-radius: 0px 50% 50% 0px;
+  	color: #666;
+  	font-size: 18px;
+  	height: 22px;
+  	width: 22px;
+  	text-align: center;
+  }
+  
+  .todo-header input {
+  	display: inline-block;
+  	height: 60px;
+  	float: right;
+  	padding-left: 50px;
+  }
+  
+  .todo-main {
+  	border-top: 1px solid #ededed;
+  }
+  
+  .todo-main i {
+  	cursor: pointer;
+  }
+  
+  .todo-list {
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+  }
+  
+  .view {
+  	font-size: 24px;
+  	line-height: 48px;
+  }
+  
+  .todo-list li {
+  	border: 1px solid #ededed;
+  	border-top: 0;
+  }
+  
+  .todo-list li .todo-content {
+  	word-break: break-all;
+  	padding: 15px 15px 15px 15px;
+  	line-height: 1.2;
+  	transition: color 0.4s;
+  }
+  
+  .delete {
+  	color: #cc9a9a;
+  	float: right;
+  	font-size: 18px;
+  	padding: 0px 20px 0 0;
+  	display: none;
+  }
+  
+  .completeLable {
+  	text-decoration: line-through solid #EEEEE0;
+  }
+  
+  .editing>.view {
+  	display: none;
+  }
+  
+  .todo-footer {
+  	border: 1px solid #ededed;
+  	border-top: 0;
+  	height: 30px;
+  	line-height: 30px;
+  	padding: 0px 15px;
+  	display: none;
+  }
+  
+  .todo-footer a {
+  	cursor: pointer;
+  }
+  
+  .filters {
+  	list-style: none;
+  	display: inline;
+  	padding-left: 65px;
+  }
+  
+  .filters li {
+  	display: inline;
+  }
+  
+  .filters li a {
+  	color: inherit;
+  	border: 1px solid transparent;
+  	border-radius: 3px;
+  	padding: 2px 5px;
+  	margin: 0px 3px;
+  }
+  
+  .filters li a.selected {
+  	border-color: rgba(175, 47, 47, 0.2);
+  }
+  
+  .completed {
+  	color: inherit;
+  	float: right;
+  }
